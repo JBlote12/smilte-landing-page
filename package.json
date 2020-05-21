@@ -1,0 +1,21 @@
+{
+  "name": "smilte-landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianfryer/smilte-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianfryer/smilte-landing-page/issues"
+  },
+  "homepage": "https://github.com/brianfryer/smilte-landing-page#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

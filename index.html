@@ -2,84 +2,56 @@
 layout: default
 title: Home
 ---
-<!doctype html>
-<main class="main-site-container">
-	<div class="main-site-top">
-		<div class="top-left">
-			<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-1.jpg">
-		</div>
-		<div class="top-right">
-			<span class="top-right__hand-image">
-				<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-2.jpg">
-			</span>
-			<span class="top-right__helmet-image">
-				<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-3.jpg">
-			</span>
-			<span class="top-right__plant-image">
-				<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-4.jpg">
-			</span>
-			<span class="top-right__woman-image">
-				<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-5.jpg">
-			</span>
-		</div>
-	</div>
-	<div class="main-site-middle">
-		<span class="middle__models-image">
-			<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/11/h10-parallax-img.jpg">
-		</span>
-	</div>
-	<div class="main-site-bottom">
-		<div class="main-site__bottom-left">
-			<div class="bottom-left__top">
-				<span class="card-image">
-					<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-7.jpg">
-				</span>
-				<span class="circles-image">
-					<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-8.jpg">
-				</span>
-			</div>
-			<div class="bottom-left__bottom">
-				<span class="birds-image">
-					<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-9.jpg">
-				</span>
-			</div>
-		</div>
-		<div class="main-site__bottom-right">
-			<span class="mary-image">
-				<img src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-10.jpg">
-			</span>
-		</div>
-	</div>
-	<footer class="main-site-footer">
-		<div class="footer__top">
-			<h3>
-				All ideas streamlined into a single flow of creativity.
-			<br>
-				We are proud to present Smiltė.
-			</h3>
-		</div>
-		<div class="footer__bottom">
-			<span class="footer__company-info">
-				<h4>About us</h4>
-				<p>Lorem Ipsum dolor sit</p>
-				<p>Copyright Qode Interactive</p>
-			</span>
-			<span class="footer__company-info">
-				<h4>LA offices</h4>
-				<p>smilte@qode.com</p>
-				<p>Copyright Qode Interactive</p>
-			</span>
-			<span class="footer__company-info">
-				<h4>SF offices</h4>
-				<p>smilte@qode.com</p>
-				<p>Copyright Qode Interactive</p>
-			</span>
-			<span class="footer__company-info">
-				<h4>NY offices</h4>
-				<p>smilte@qode.com</p>
-				<p>Copyright Qode Interactive</p>
-			</span>
-		</div>
-	</footer>
-</main>
+<section class="sm-grid">
 
+	{% include grid-item.html
+		 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-1.jpg"
+		 alt="placeholder"
+ 	%}
+
+	<div class="sm-grid">
+		{% include grid-item.html
+			 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-2.jpg"
+			 alt="placeholder"
+	 	%}
+		{% include grid-item.html
+			 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-3.jpg"
+			 alt="placeholder"
+	 	%}
+		{% include grid-item.html
+			 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-4.jpg"
+			 alt="placeholder"
+	 	%}
+		{% include grid-item.html
+			 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-5.jpg"
+			 alt="placeholder"
+	 	%}
+	</div>
+
+</section>
+
+{% include fullwidth-media.html src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/11/h10-parallax-img.jpg" %}
+
+<section class="sm-grid">
+
+	<div class="sm-grid">
+		{% include grid-item.html
+			 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-7.jpg"
+			 alt="placeholder"
+	 	%}
+		{% include grid-item.html
+			 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-8.jpg"
+			 alt="placeholder"
+	 	%}
+		{% include grid-item.html
+			 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-9.jpg"
+			 alt="placeholder"
+	 	%}
+	</div>
+
+	{% include grid-item.html
+		 src="https://smilte.qodeinteractive.com/wp-content/uploads/2018/10/h10-port-10.jpg"
+		 alt="placeholder"
+ 	%}
+
+</section>

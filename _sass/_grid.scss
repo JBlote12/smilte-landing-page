@@ -1,0 +1,27 @@
+.sm-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  & > &,
+  & > .sm-grid__item {
+    flex: 1 0 50%;
+  }
+}
+
+.sm-grid__item {
+  position: relative; // for positioning the img
+  height: 0;
+  padding-top: 50%;
+
+  > img {
+    object-fit: contain;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+  }
+}
