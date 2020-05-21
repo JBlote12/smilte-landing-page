@@ -1,17 +1,17 @@
 .main-site-container {
 	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 
-	display: flex;
-	flex-direction: column;
+	// display: flex;
+	// flex-direction: column;
 }
 
 .main-site-top {
 	width: 100%;
 
 	display: flex;
-
 	align-content: stretch;
-
 }
 
 .top-left {
@@ -61,26 +61,3 @@
 	width: 50%;
 
 }
-
-.main-site-footer {
-
-	background-color: pink;
-
-}
-
-.footer__top {
-
-	width: 40%;
-
-	padding-left: 27.5%;
-}
-
-.footer__bottom {
-	display: flex;
-	justify-content: center;
-}
-
-.footer__company-info {
-	margin: 0 25px;
-}
-
